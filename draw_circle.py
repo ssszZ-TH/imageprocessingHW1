@@ -1,11 +1,11 @@
 import numpy as np
 import cv2 as cv
 
-r = 100
+r = 50
 h = 250
 k = 250
 resolution = 500
-sampling_line=1000
+sampling_line=500
 
 img_arr = np.zeros([resolution,resolution], dtype=np.uint8)
 

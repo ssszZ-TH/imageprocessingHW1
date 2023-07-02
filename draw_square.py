@@ -5,7 +5,7 @@ img_arr = np.zeros([300,300], dtype=np.uint8)
 
 for y in range(150,200):
     for x in range(15,260):
-        img_arr[x,y] = 100
+        img_arr[y,x] = 100
     
 cv.imshow('spaspa',img_arr)
 
